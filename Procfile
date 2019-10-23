@@ -1,1 +1,1 @@
-worker: python triviaplus.py
+worker: python  bot2_1_1 .py
