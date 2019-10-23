@@ -69,6 +69,7 @@ oot_channel_id_list = [
 	"595635734904307742",
 	"569420128794443776",
 	"588070986554015764",
+        "597544008989933618", 
 	"590182635653824542"
 ]
 
@@ -305,7 +306,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NTY4ODE1NzUyNDIxOTY1ODM0.XR2f-g.Q5J1Chc0TTfBGvoDprZAHk9nFnw'))
+    loop.create_task(bot.start('NjM2NDk2NTY4MjU3ODcxODgz.XbAdsg.fKMtHTFq1FDe3Z9xh2oVbCPbnr0')) 
     loop.run_forever()
 
 
